@@ -19,6 +19,12 @@
         <label>Nama:</label>
         <input type="text" name="nama" required>
 
+        <label>No Telepon:</label>
+        <input type="text" name="telp" placeholder="08xxxxxxxxxx" required>
+        
+        <label>Email:</label>
+        <input type="text" name="email" placeholder="contoh@email.com" required>
+        
         <label>Program Studi:</label>
         <select name="prodi">
             <option>Informatika</option>

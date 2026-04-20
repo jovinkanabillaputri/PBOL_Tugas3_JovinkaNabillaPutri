@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* kodingan utama */
 * {
     box-sizing: border-box;
 }
@@ -11,9 +11,9 @@ body {
 
 /* ================= FORM (REGISTER) ================= */
 
-/* container form (AMAN, gak ganggu proses) */
+/* container form */
 .form-wrapper {
-    max-width: 500px; /* biar fleksibel, gak kekunci */
+    max-width: 500px;
     margin: 40px auto;
 }
 
@@ -50,7 +50,7 @@ form textarea {
     border-radius: 6px;
 }
 
-/* radio & checkbox sejajar */
+/* radio & checkbox */
 .inline-group {
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@ button[type="reset"] {
 
 /* ================= HALAMAN PROSES ================= */
 
-/* wrapper khusus proses (INI YANG PENTING) */
+/* wrapper khusus proses */
 .result-wrapper {
     width: 100%;
     padding: 20px;
@@ -114,7 +114,7 @@ button[type="reset"] {
     border: 1px solid #ddd;
 }
 
-/* belang abu putih */
+/* design tabel */
 .data-table tr:nth-child(even) {
     background: #f2f2f2;
 }
