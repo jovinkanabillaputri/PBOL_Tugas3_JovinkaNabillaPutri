@@ -2,6 +2,8 @@
 <%
     String nim = request.getParameter("nim");
     String nama = request.getParameter("nama");
+    String telp = request.getParameter("telp");
+    String email = request.getParameter("email");
     String prodi = request.getParameter("prodi");
     String jk = request.getParameter("jk");
     String alamat = request.getParameter("alamat");
@@ -23,6 +25,8 @@
 <table class="data-table">
     <tr><td>NIM</td><td><%= nim %></td></tr>
     <tr><td>Nama</td><td><%= nama %></td></tr>
+    <tr><td>No Telepon</td><td><%= telp %></td></tr>
+    <tr><td>Email</td><td><%= email %></td></tr>
     <tr><td>Prodi</td><td><%= prodi %></td></tr>
     <tr><td>Jenis Kelamin</td><td><%= jk %></td></tr>
     <tr><td>Alamat</td><td><%= alamat %></td></tr>
